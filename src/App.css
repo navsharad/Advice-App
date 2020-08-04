@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.app{
+  height: 100vh;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+}
+.card {
+  background-color: beige;
+  height: 25%;
+  width: 35%;
+  border-radius: 20px;
+  display: flex;
+  padding: 3%;
+  box-shadow: 7px 7px rgb(146, 145, 145);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.advice {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-overflow: clip;
+}
+
+.button {
+  height: 60px;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    height: 50%;
+    width: 70%;
+
+  }
+}
+
+
+
