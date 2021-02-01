@@ -5,3 +5,7 @@ This simple app uses Axios HTTP-client to fetch data from an API and displays a 
 ## Technologies Used
 
 Javascript, React js, Axios
+
+## Live version
+
+https://lifeadvice.netlify.app/
